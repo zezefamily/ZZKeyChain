@@ -14,6 +14,8 @@
 		E4A3673A1B394A67000B7D3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A367391B394A67000B7D3C /* Images.xcassets */; };
 		E4A3673D1B394A67000B7D3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A3673B1B394A67000B7D3C /* LaunchScreen.xib */; };
 		E4A367491B394A67000B7D3C /* ZZKeyChainUseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A367481B394A67000B7D3C /* ZZKeyChainUseDemoTests.m */; };
+		E4A367591B394AC5000B7D3C /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A367561B394AC5000B7D3C /* KeychainItemWrapper.m */; };
+		E4A3675A1B394AC5000B7D3C /* ZZKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A367581B394AC5000B7D3C /* ZZKeyChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E4A367421B394A67000B7D3C /* ZZKeyChainUseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZKeyChainUseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A367471B394A67000B7D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4A367481B394A67000B7D3C /* ZZKeyChainUseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZKeyChainUseDemoTests.m; sourceTree = "<group>"; };
+		E4A367551B394AC5000B7D3C /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		E4A367561B394AC5000B7D3C /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		E4A367571B394AC5000B7D3C /* ZZKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZKeyChain.h; sourceTree = "<group>"; };
+		E4A367581B394AC5000B7D3C /* ZZKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZKeyChain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		E4A3672B1B394A67000B7D3C /* ZZKeyChainUseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E4A367521B394ABC000B7D3C /* Class */,
 				E4A367301B394A67000B7D3C /* AppDelegate.h */,
 				E4A367311B394A67000B7D3C /* AppDelegate.m */,
 				E4A367331B394A67000B7D3C /* ViewController.h */,
@@ -117,6 +124,33 @@
 				E4A367471B394A67000B7D3C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4A367521B394ABC000B7D3C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E4A367531B394AC5000B7D3C /* ZZKeyChain */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		E4A367531B394AC5000B7D3C /* ZZKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				E4A367541B394AC5000B7D3C /* KeychainItemWrampper */,
+				E4A367571B394AC5000B7D3C /* ZZKeyChain.h */,
+				E4A367581B394AC5000B7D3C /* ZZKeyChain.m */,
+			);
+			path = ZZKeyChain;
+			sourceTree = "<group>";
+		};
+		E4A367541B394AC5000B7D3C /* KeychainItemWrampper */ = {
+			isa = PBXGroup;
+			children = (
+				E4A367551B394AC5000B7D3C /* KeychainItemWrapper.h */,
+				E4A367561B394AC5000B7D3C /* KeychainItemWrapper.m */,
+			);
+			path = KeychainItemWrampper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A367591B394AC5000B7D3C /* KeychainItemWrapper.m in Sources */,
 				E4A367351B394A67000B7D3C /* ViewController.m in Sources */,
 				E4A367321B394A67000B7D3C /* AppDelegate.m in Sources */,
 				E4A3672F1B394A67000B7D3C /* main.m in Sources */,
+				E4A3675A1B394AC5000B7D3C /* ZZKeyChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
