@@ -14,7 +14,7 @@
 		E4A3673A1B394A67000B7D3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A367391B394A67000B7D3C /* Images.xcassets */; };
 		E4A3673D1B394A67000B7D3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A3673B1B394A67000B7D3C /* LaunchScreen.xib */; };
 		E4A367491B394A67000B7D3C /* ZZKeyChainUseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A367481B394A67000B7D3C /* ZZKeyChainUseDemoTests.m */; };
-		E4A367591B394AC5000B7D3C /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A367561B394AC5000B7D3C /* KeychainItemWrapper.m */; };
+		E4A367591B394AC5000B7D3C /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A367561B394AC5000B7D3C /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E4A3675A1B394AC5000B7D3C /* ZZKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A367581B394AC5000B7D3C /* ZZKeyChain.m */; };
 /* End PBXBuildFile section */
 
